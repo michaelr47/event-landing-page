@@ -1,3 +1,19 @@
 .jumbo {
+    position: relative;
+    background-image: url("https://i.stack.imgur.com/LnEYQ.jpg");
     background-color: #cfd5d5;
+    background-size: 100vw 70vh;
+    border-bottom: 1px solid lightgrey;
+}
+
+.navbar {
+    background-color: #eaeaea;
+}
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link {
+    color: #171717;
 }
