@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Event Landing Page</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,7 +23,7 @@
   <body>
     <!-- Start of navbar -->
     <header>
-      <nav class="navbar navbar-expand-sm">
+      <nav class="navbar navbar-expand-md">
         <div class="container-fluid p-2">
           <a class="col-6 navbar-brand px-5" href="#">moqups</a>
           <button
@@ -57,25 +57,25 @@
 
     <!-- start of jumbotron header-->
     <main>
-      <section id="jumbotron-header">
-        <div class="container-fluid py-5 jumbo">
+      <section id="jumbotron-header" class="p-5">
+        <div class="container-fluid p-5 jumbo">
           <div class="row">
-            <div class="col text-center text-warning mt-5">
+            <div class="col-12 text-center text-dark mt-5">
               <h1 class="fw-bold">Clear Statement about<br />Your Event</h1>
             </div>
           </div>
           <div class="row">
-            <div class="col text-center text-warning mt-4">
+            <div class="col-12 text-center text-dark mt-4">
               <p class="fw-light fs-4">
                 Secondary heading providing additional information
               </p>
             </div>
           </div>
           <div class="row">
-            <div class="col text-center mb-3 mt-4">
+            <div class="col-12 text-center mb-3 mt-5">
               <button
                 type="button"
-                class="text-warning rounded-1 border-0 p-4 mb-5 btn-lg bg-dark"
+                class="text-light rounded-2 p-4 mb-5 btn bg-success fs-5 fw-bold"
               >
                 GET THE TICKET
               </button>
@@ -95,11 +95,11 @@
           </div>
         </div>
         <!-- speakers, occupation and contact section-->
-        <div class="container">
-          <div class="row d-flex justify-content-between text-warning mt-4">
-            <div class="card p-0" style="width: 18rem">
+        <div class="container mb-5 p-5">
+          <div class="row d-flex justify-content-evenly mt-4">
+            <div class="text-light card p-0 mt-4 mt-sm-3 mt-md-2 mt-lg-1 shadow-lg" style="width: 18rem">
               <img
-                src="https://i.stack.imgur.com/LnEYQ.jpg"
+                src="img/RJ2.jpg"
                 class="card-img-top"
                 alt="default image"
               />
@@ -111,9 +111,9 @@
                 <p class="card-text">@username</p>
               </div>
             </div>
-            <div class="card p-0" style="width: 18rem">
+            <div class="card text-light p-0 mt-4 mt-sm-3 mt-md-2 mt-lg-1 shadow-lg" style="width: 18rem">
               <img
-                src="https://i.stack.imgur.com/LnEYQ.jpg"
+                src="img/LH2.jpg"
                 class="card-img-top"
                 alt="default image"
               />
@@ -125,9 +125,9 @@
                 <p class="card-text">@username</p>
               </div>
             </div>
-            <div class="card p-0" style="width: 18rem">
+            <div class="card text-light p-0 mt-4 mt-sm-3 mt-md-2 mt-lg-1 shadow-lg" style="width: 18rem">
               <img
-                src="https://i.stack.imgur.com/LnEYQ.jpg"
+                src="img/MS2.jpg"
                 class="card-img-top"
                 alt="default image"
               />
@@ -140,9 +140,9 @@
                 <p class="card-text">@username</p>
               </div>
             </div>
-            <div class="card p-0" style="width: 18rem">
+            <div class="card text-light p-0 mt-4 mt-sm-3 mt-md-2 mt-lg-1 shadow-lg" style="width: 18rem">
               <img
-                src="https://i.stack.imgur.com/LnEYQ.jpg"
+                src="img/WP2.jpg"
                 class="card-img-top"
                 alt="default image"
               />
@@ -158,14 +158,14 @@
         </div>
       </section>
       <!-- end of speakers section -->
-      <hr />
+    
       <!-- start of ticket button-->
-      <section class="tick-desc p-3">
+      <section class="tick-desc p-5">
         <div class="container mt-5 mb-4">
           <div class="row">
             <div class="col d-flex flex-column align-items-center">
-              <h2 class="text-primary mb-5 fw-bold">Get Your Ticket Today!</h2>
-              <p class="mb-4">
+              <h2 class="text-primary mb-5 mt-5 display-4 fw-semibold">Get Your Ticket Today!</h2>
+              <p class="mb-4 text-center fs-5">
                 Each ticket includes: <span class="fw-bold">20</span> speakers,
                 <span class="fw-bold">1000</span> participants,
                 <span class="fw-bold">15</span> sessions,
@@ -173,7 +173,7 @@
               </p>
               <button
                 type="button"
-                class="btn btn-lg btn-dark rounded-1 mt-4 p-4"
+                class=" fs-5 fw-bold btn bg-success text-light rounded-2 mt-4 mb-5 p-4"
               >
                 BUY TICKET $149
               </button>
@@ -182,7 +182,7 @@
         </div>
       </section>
       <!-- end of ticket button-->
-      <hr />
+     
       <!-- start of location venue -->
       <section class="p-3 bg-light">
         <div class="container my-5">
@@ -190,10 +190,10 @@
             <div class="col">
               <h1 class="fw-bold">The Venue</h1>
               <p class="my-5">
-                Our event will be held at
-                <span class="fw-bold"
-                  >Main<br> Office headquarters at Provost & East<br> Building 145 City
-                  Road, London.</span
+                Our event will be held at the corner of 
+                <span class="fw-bold">
+                  H and 18th St.<br>at Building 1701, Bitwise Industries Office in front of the<br> Padre Hotel 
+                  in Bakersfield, California.</span
                 >
               </p>
               <iframe
@@ -208,9 +208,9 @@
             </div>
             <div class="col">
               <img
-            
-                src="https://global.hsmai.org/wp-content/uploads/2019/07/046_D4S1532-e1564102411695.jpg"
-                alt="picture of venue" style="width: 100%; height: 535px;"
+                src=""
+                alt="picture of venue" 
+                style="width:600px; height: 50%;"
               />
             </div>
           </div>

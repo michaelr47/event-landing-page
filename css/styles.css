@@ -1,12 +1,9 @@
-.jumbo {
-    position: relative;
-    background-image: url("https://global.hsmai.org/wp-content/uploads/2019/07/046_D4S1532-e1564102411695.jpg");
-    background-color: #cfd5d5;
-    background-size: 100vw 70vh;
+#jumbotron-header {
+    
     border-bottom: 1px solid lightgrey;
 }
 
-.navbar {
+nav {
     background-color: #eaeaea;
 }
 .navbar-brand {
@@ -16,4 +13,9 @@
 }
 .nav-link {
     color: #171717;
+   
+}
+
+.about {
+    background-color: #2c9d68;
 }
