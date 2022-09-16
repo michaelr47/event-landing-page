@@ -1,10 +1,16 @@
 #jumbotron-header {
-    
+    background-image: url(../img/sanfran.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     border-bottom: 1px solid lightgrey;
+    
 }
 
 nav {
-    background-color: #eaeaea;
+    background-color: #2c9d68;
+    box-shadow: 5px 1px 5px rgb(184, 184, 184);
 }
 .navbar-brand {
     font-family: 'Satisfy', cursive;
@@ -18,4 +24,8 @@ nav {
 
 .about {
     background-color: #2c9d68;
+}
+footer {
+    background-color: #2c9d68;
+   
 }
